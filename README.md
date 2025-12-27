@@ -3,8 +3,12 @@
 ## Project Overview
 This end-to-end Business Intelligence pipeline identifies $8.9M in total revenue and segments high-risk churn customers. The system processes raw retail transaction data to calculate Customer Lifetime Value (CLV) and flag churn risks based on purchasing behavior.
 
+## Project Documentation
+* **[Business Problem & Objective](problem_statement.md):** Detailed breakdown of the client's challenges and project goals.
+* **[Analysis & Results](analysis_results.md):** In-depth report on the 66% churn rate, market performance, and strategic recommendations.
+
 ## Dashboard
-![Dashboard Screenshot](DashboardScreenshot.png)
+![Dashboard Screenshot](dashboard_screenshot.png)
 
 ## Tech Stack
 * **Python:** Data cleaning and ETL pipeline (Pandas).
@@ -12,6 +16,6 @@ This end-to-end Business Intelligence pipeline identifies $8.9M in total revenue
 * **Power BI:** Visualization of Churn vs. Active customer segments and revenue trends.
 
 ## Key Insights
-* **Churn Risk:** 33% of the customer base is identified as "High Risk" due to extended purchase gaps.
-* **Top Markets:** The United Kingdom accounts for the majority of revenue, with the Netherlands and EIRE leading international markets.
-* **Seasonality:** Revenue demonstrated a strong upward trend peaking in Q4 2011, indicating significant seasonal demand.
+* **High Churn Rate:** 66% of customers are identified as "High Risk," indicating a large volume of one-time purchasers who have not returned in 90 days.
+* **Dominant Market:** The UK accounts for the vast majority of revenue, suggesting the business is heavily domestic-focused despite international presence in Netherlands and EIRE.
+* **Q4 Seasonality:** Revenue spikes significantly in Q4 (Nov-Dec), confirming strong holiday season dependency.
