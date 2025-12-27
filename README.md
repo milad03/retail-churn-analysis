@@ -8,7 +8,7 @@ This end-to-end Business Intelligence pipeline identifies $8.9M in total revenue
 * **[Analysis & Results](analysis_results.md):** In-depth report on the 66% churn rate, market performance, and strategic recommendations.
 
 ## Dashboard
-![Dashboard Screenshot](dashboard_screenshot.png)
+![Dashboard Screenshot](DashboardScreenshot.png)
 
 ## Tech Stack
 * **Python:** Data cleaning and ETL pipeline (Pandas).
